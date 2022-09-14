@@ -1,0 +1,45 @@
+*.cont{
+          display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            padding: 5px;
+        }
+         
+
+.card {
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          transition: 0.3s;
+          width: 80%;
+          padding: 20px;
+          margin: 20px;
+        }
+        
+        .card:hover {
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        
+        .container {
+          padding: 2px 16px;
+        }
+.but{
+          margin: 10px;
+          padding:10px;
+}
+#plus{
+          margin: 10px;
+          background-color: rgba(94, 103, 196, 1);
+          width: 50px;
+
+}
+#minus{
+          margin: 10px;
+          background-color: rgb(235, 17, 17);
+          width: 50px;
+}
+.welcome_text{
+  margin-left: 30%;
+}
+.welcome_text button{
+  background-color: rgb(6, 69, 185);
+  color: white;
+}
